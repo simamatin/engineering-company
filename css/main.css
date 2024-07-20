@@ -71,3 +71,53 @@ a {
     font-size: 18px;
     color: #fff;
 }
+
+/* Start Info */
+
+#info {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+#info .info-item {
+    width: 33.33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#info .info-item:nth-child(2),
+#info .info-item:nth-child(3) {
+    padding-right: 15px;
+}
+
+#info .info-item .info-item-icon svg {
+    font-size: 38px;
+    color: #fff;
+}
+
+#info .info-item .info-item-desc {
+    color: #fff;
+    font-size: 14px;
+}
+
+#info .info-item .info-item-desc p {
+    line-height: 23px;
+}
+
+#info .info-item .info-item-desc .friday {
+    margin-top: 7px;
+    font-size: 13px;
+}
+
+#info .info-item .info-item-desc.phone {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+#info .info-item .info-item-desc.phone .mobile {
+    margin-top: 10px;
+}
+
+/* End Info */
