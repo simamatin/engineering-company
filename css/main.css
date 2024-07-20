@@ -1,0 +1,30 @@
+@import url("../css/fonts.css");
+@import url("../css/reset.css");
+@import url("../css/responsive.css");
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: IRANSans;
+    line-height: 2;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in;
+}
