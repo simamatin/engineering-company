@@ -299,3 +299,16 @@ a {
 }
 
 /* End Header */
+/* End Header Top */
+
+/* Start Story */
+
+#base-story {
+    width: 100%;
+    padding: 80px 0;
+}
+
+.base-video {
+    width: 50%;
+    position: relative;
+}
