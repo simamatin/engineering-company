@@ -312,3 +312,24 @@ a {
     width: 50%;
     position: relative;
 }
+
+.base-video::before,
+.base-video::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 15px;
+    background-color: #faa000;
+}
+
+.base-video::after {
+    right: -15px;
+    width: 15px;
+    height: 50%;
+}
+
+.base-video video {
+    width: 100%;
+}
+
