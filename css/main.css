@@ -355,3 +355,49 @@ a {
     justify-content: space-between;
     margin: 50px 0 0 0;
 }
+
+.base-story-item div {
+    width: 24%;
+    text-align: center;
+    background-color: #faa000;
+    padding: 40px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.base-story-item div a {
+    color: #000;
+}
+
+.base-story-item div::before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 3%;
+    left: 0;
+    transform: rotate(-40deg);
+    border-right: 11px solid transparent;
+    border-left: 11px solid transparent;
+    border-top: 11px solid #000;
+}
+
+.base-story-item div::after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -3%;
+    left: -5%;
+    transform: rotate(140deg);
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-top: 12px solid #fff;
+}
+
+.base-story-item div svg {
+    font-size: 35px;
+    /*margin: 0 0 10px 0;*/
+}
+
+/* End Story */
