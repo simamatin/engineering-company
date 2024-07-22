@@ -333,3 +333,25 @@ a {
     width: 100%;
 }
 
+.base-story {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 35px;
+}
+
+.story-title h3 {
+    margin-bottom: 15px;
+    border-right: 4px solid #faa000;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.base-story-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+}
