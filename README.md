@@ -3,4 +3,4 @@
 
 ## Project Link (Online)
 
-[Colored Boxes](https://simamatin.github.io/engineering-company/)
+[Engineering Company](https://simamatin.github.io/engineering-company/)
