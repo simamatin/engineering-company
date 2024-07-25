@@ -404,5 +404,13 @@ a {
 
 /* Start Services Section */
 
+#services{
+    width: 100%;
+    background-image: url("../images/coverservice.png");
+    background-size: cover;
+    height: 500px;
+}
+
+
 
 /* End Services Section */
