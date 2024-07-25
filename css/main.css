@@ -445,12 +445,39 @@ a {
     display: flex;
 }
 
+.tab-content .tab {
+    display: flex;
+}
+
+.tab-content .hide {
+    display: none;
+}
+
 .tab-content .tab img {
     width: 200px;
 }
 
-.hide {
-    display: none;
+.tab-content .tab .content{
+    display: flex;
+    padding: 10px;
 }
 
+.tab-content .tab .content .content-title {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tab-content .tab .content .content-title h3{
+    text-align: right;
+    margin-bottom: 30px;
+}
+.tab-content .tab .content .content-img {
+    width: 30%;
+    text-align: center;
+}
+
+.tab-content .tab .content .content-img img{
+    width: 90%;
+}
 /* End Services Section */
