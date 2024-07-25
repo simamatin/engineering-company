@@ -420,6 +420,11 @@ a {
     display: flex;
 }
 
-
+.tab-content{
+    display: flex;
+}
+.tab-content .tab img{
+    width: 200px;
+}
 
 /* End Services Section */
