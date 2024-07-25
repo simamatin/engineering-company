@@ -426,20 +426,31 @@ a {
     height: 50px;
     align-items: center;
 }
-.tab-button ul li{
+
+.tab-button ul li {
     width: 20%;
     text-align: center;
     border-left: 3px solid #faa000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
-.tab-button ul li:last-child{
+
+.tab-button ul li:last-child {
     border-left: none;
 }
+
 .tab-content {
     display: flex;
 }
 
 .tab-content .tab img {
     width: 200px;
+}
+
+.hide {
+    display: none;
 }
 
 /* End Services Section */
