@@ -411,19 +411,29 @@ a {
     height: 500px;
 }
 
-.tab-button{
+.service {
+    flex-direction: column;
+}
+
+.tab-button {
     width: 100%;
     display: flex;
 }
 
-.tab-button ul{
+.tab-button ul {
+    display: flex;
+    width: 100%;
+}
+.tab-button ul li{
+    width: 20%;
+    text-align: center;
+}
+
+.tab-content {
     display: flex;
 }
 
-.tab-content{
-    display: flex;
-}
-.tab-content .tab img{
+.tab-content .tab img {
     width: 200px;
 }
 
