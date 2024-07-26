@@ -408,7 +408,7 @@ a {
     width: 100%;
     background-image: url("../images/coverservice.png");
     background-size: cover;
-    height: 500px;
+    height: 60vh;
     position: relative;
 }
 
@@ -422,6 +422,7 @@ a {
     bottom: 0;
     left: 0;
     background-color: rgba(0, 0, 0, .7);
+    padding: 100px 0;
 }
 .tab-button {
     width: 100%;
