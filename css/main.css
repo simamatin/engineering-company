@@ -408,7 +408,7 @@ a {
     width: 100%;
     background-image: url("../images/coverservice.png");
     background-size: cover;
-    height: 60vh;
+    height: 70vh;
     position: relative;
 }
 
@@ -427,12 +427,12 @@ a {
 }
 
 .service-title {
-    padding: 15px 0;
+    /*padding: 15px 0;*/
 }
 
 .service-title h2 {
     border-right: 4px solid #faa000;
-    padding: 15px 10px;
+    padding: 45px 10px;
     color: #fff;
 }
 
