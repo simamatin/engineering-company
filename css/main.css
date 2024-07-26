@@ -415,7 +415,8 @@ a {
 .service {
     flex-direction: column;
 }
-.overlay{
+
+.overlay {
     position: absolute;
     top: 0;
     right: 0;
@@ -424,6 +425,17 @@ a {
     background-color: rgba(0, 0, 0, .7);
     padding: 100px 0;
 }
+
+.service-title {
+    padding: 15px 0;
+}
+
+.service-title h2 {
+    border-right: 4px solid #faa000;
+    padding: 15px 10px;
+    color: #fff;
+}
+
 .tab-button {
     width: 100%;
     display: flex;
@@ -460,10 +472,12 @@ a {
 
 .tab-content {
     display: flex;
+    background-color: #fff;
 }
 
 .tab-content .tab {
     display: flex;
+    flex-direction: column;
 }
 
 .tab-content .hide {
@@ -477,6 +491,7 @@ a {
 .tab-content .tab .content {
     background-color: #fff;
     display: flex;
+    padding: 30px;
 }
 
 .tab-content .tab .content .content-title {
@@ -520,7 +535,9 @@ a {
     padding: 10px;
 
 }
-.tab-content .tab .tab-content__link:hover{
+
+.tab-content .tab .tab-content__link:hover {
     background-color: #df7904;
 }
+
 /* End Services Section */
