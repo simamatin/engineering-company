@@ -435,10 +435,16 @@ a {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    font-size: 18px;
 }
 
 .tab-button ul li:last-child {
     border-left: none;
+}
+
+.tab-button ul li svg {
+    font-size: 22px;
+    margin-right: 10px;
 }
 
 .tab-content {
@@ -457,7 +463,7 @@ a {
     width: 200px;
 }
 
-.tab-content .tab .content{
+.tab-content .tab .content {
     display: flex;
     padding: 10px;
 }
@@ -468,16 +474,27 @@ a {
     flex-direction: column;
     justify-content: center;
 }
-.tab-content .tab .content .content-title h3{
+
+.tab-content .tab .content .content-title h3 {
     text-align: right;
     margin-bottom: 30px;
 }
+
 .tab-content .tab .content .content-img {
     width: 30%;
     text-align: center;
 }
 
-.tab-content .tab .content .content-img img{
+.tab-content .tab .content .content-img img {
     width: 90%;
+}
+
+.tab-content .tab .tab-content__link{
+    background-color: #faa000;
+    text-align: center;
+    padding: 10px;
+}
+.tab-content .tab .tab-content__link a{
+    color: #fff;
 }
 /* End Services Section */
