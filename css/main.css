@@ -409,15 +409,24 @@ a {
     background-image: url("../images/coverservice.png");
     background-size: cover;
     height: 500px;
+    position: relative;
 }
 
 .service {
     flex-direction: column;
 }
-
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
 .tab-button {
     width: 100%;
     display: flex;
+    background-color: #fca714;
 }
 
 .tab-button ul {
@@ -429,8 +438,9 @@ a {
 
 .tab-button ul li {
     width: 20%;
+    height: 100%;
     text-align: center;
-    border-left: 3px solid #faa000;
+    border-left: 3px solid #ce8713;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -464,8 +474,8 @@ a {
 }
 
 .tab-content .tab .content {
+    background-color: #fff;
     display: flex;
-    padding: 10px;
 }
 
 .tab-content .tab .content .content-title {
@@ -499,13 +509,17 @@ a {
     width: 100%;
     background-color: #faa000;
     text-align: center;
-    padding: 10px;
+    transition: all .4s ease-in-out;
 }
 
 .tab-content .tab .tab-content__link a {
     color: #fff;
     cursor: pointer;
     display: block;
-}
+    padding: 10px;
 
+}
+.tab-content .tab .tab-content__link:hover{
+    background-color: #df7904;
+}
 /* End Services Section */
