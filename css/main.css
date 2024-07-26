@@ -473,11 +473,17 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 20px;
 }
 
 .tab-content .tab .content .content-title h3 {
     text-align: right;
     margin-bottom: 30px;
+}
+
+.tab-content .tab .content .content-title p {
+    line-height: 25px;
+
 }
 
 .tab-content .tab .content .content-img {
@@ -489,12 +495,17 @@ a {
     width: 90%;
 }
 
-.tab-content .tab .tab-content__link{
+.tab-content .tab .tab-content__link {
+    width: 100%;
     background-color: #faa000;
     text-align: center;
     padding: 10px;
 }
-.tab-content .tab .tab-content__link a{
+
+.tab-content .tab .tab-content__link a {
     color: #fff;
+    cursor: pointer;
+    display: block;
 }
+
 /* End Services Section */
