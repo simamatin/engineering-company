@@ -165,19 +165,19 @@
            <div class="service">
                <div class="tab-button">
                    <ul>
-                       <li id="tab-one">نقشه کشی
+                       <li id="tab-one-content">نقشه کشی
                            <i class="fas fa-ruler-vertical"></i>
                        </li>
-                       <li id="tab-two">داربست
+                       <li id="tab-two-content">داربست
                            <i class="fas fa-pencil-ruler"></i>
                        </li>
-                       <li id="tab-three">نقاشی
+                       <li id="tab-three-content">نقاشی
                            <i class="fas fa-paint-roller"></i>
                        </li>
-                       <li id="tab-four">بتن ریزی
+                       <li id="tab-four-content">بتن ریزی
                            <i class="fas fa-hard-hat"></i>
                        </li>
-                       <li id="tab-five">تخریب
+                       <li id="tab-five-content">تخریب
                            <i class="fas fa-hammer"></i>
                        </li>
                    </ul>
@@ -277,17 +277,21 @@
 <script src="vendor/fontawesome/js/all.min.js"></script>
 <script src="js/typed.min.js"></script>
 <script>
-    var typed = new Typed("#typed", {
-        strings: [
-            "با برترین مهندسان",
-            "یعنی برترین ابزارها",
-            "تضمین صددرصدی کار"
-        ],
-        loop: true,
-        typeSpeed: 50,
-        backSpeed: 50,
-    });
+
 </script>
-<script src="js/script.js"></script>
+<script src="js/script.js">
+    $(document).ready(function () {
+        var typed = new Typed("#typed", {
+            strings: [
+                "با برترین مهندسان",
+                "یعنی برترین ابزارها",
+                "تضمین صددرصدی کار"
+            ],
+            loop: true,
+            typeSpeed: 50,
+            backSpeed: 50,
+        });
+    })
+</script>
 </body>
 </html>
