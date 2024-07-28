@@ -412,6 +412,10 @@ a {
     position: relative;
 }
 
+#service .active {
+    display: block;
+}
+
 .service {
     flex-direction: column;
 }
