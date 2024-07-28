@@ -165,7 +165,7 @@
            <div class="service">
                <div class="tab-button">
                    <ul>
-                       <li id="tab-one-content">نقشه کشی
+                       <li id="tab-one-content" class="active">نقشه کشی
                            <i class="fas fa-ruler-vertical"></i>
                        </li>
                        <li id="tab-two-content">داربست
@@ -295,7 +295,7 @@
 
     $('.tab-button').on('click', 'li', function () {
 let tabMenu = $(this).attr('id');
-$(this).addClass('active')
+$(this).addClass('active').siblings().removeClass('active')
     })
 </script>
 </body>
