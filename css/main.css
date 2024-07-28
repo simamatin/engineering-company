@@ -412,9 +412,6 @@ a {
     position: relative;
 }
 
-#service .active {
-    display: block;
-}
 
 .service {
     flex-direction: column;
@@ -482,6 +479,11 @@ a {
 .tab-content .tab {
     display: flex;
     flex-direction: column;
+}
+
+#service .active {
+    display: block;
+    background-color: indianred;
 }
 
 .tab-content .hide {
